@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/main.css">
+    
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCEhmVGg3qnpqSnPwAFpCHdRqwsR5abkhU",
+    authDomain: "clj-chat.firebaseapp.com",
+    databaseURL: "https://clj-chat.firebaseio.com",
+    projectId: "clj-chat",
+    storageBucket: "clj-chat.appspot.com",
+    messagingSenderId: "293369282958"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+    <script src="js/compiled/app.js"></script>
+    <script>chat.core.init();</script>
+  </body>
+</html>
